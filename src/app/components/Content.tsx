@@ -16,8 +16,8 @@ export const Content = () => {
   return (
     <>
       <h1>{ value }</h1>  
-      <div className="flex flex-col">
-        <button onClick={ () => { tambah() } }>Tambah</button>
+      <div className="flex flex-row">
+        <button className="pr-4" onClick={ () => { tambah() } }>Tambah</button>
         <button onClick={ () => { kurang() }}>kurang</button>
       </div>
     </>
